@@ -98,7 +98,7 @@
 
        // YOK SAYMA KAÇIŞ İŞARETLERİ 
 
-       echo "Ben 'kod yazmayı' seviyorum<br>";
+       echo "Lorem ipsum dolor sit, amet consectetur adipisicing elit<br>";
        echo "Ben $ad 'kod yazmayı' seviyorum<br>";
        echo "Ben $ad \"kod yazmayı\" seviyorum<br>";
        echo "Ben \$ad \"kod yazmayı\" seviyorum<br><hr>";
