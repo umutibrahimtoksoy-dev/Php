@@ -32,15 +32,15 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'ibrahimtoksoy8@gmail.com';                     //SMTP username
-    $mail->Password   = 'dfdgfdgfd';                               //SMTP password
+    $mail->Username   = '*******';                     //SMTP username
+    $mail->Password   = '*******';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom('$_POST["isim"]', 'Umut İbrahim');
-    $mail->addAddress('ibrahimtoksoy8@gmail.com', 'Umut İbrahim');     //Add a recipient
-    $mail->addReplyTo('ibrahimtoksoy8@gmail.com', 'Umut İbrahim');
+    $mail->addAddress('******', 'Umut İbrahim');     //Add a recipient
+    $mail->addReplyTo('******', 'Umut İbrahim');
     
 
 
